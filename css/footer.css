@@ -1,0 +1,28 @@
+/* footer  */
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  width: 100vw;
+  background-color: rgba(14, 19, 16, 0.911);
+  align-items: baseline;
+  justify-content: space-around;
+ 
+}
+
+.footer-text {
+  color: white;
+  text-decoration: none;
+}
+.footer li {
+  list-style: none;
+  font-size: 17px;
+  position: relative;
+  top: 10%;
+}
+.footer-logo {
+  width: 5%;
+  height: 3%;
+  position: relative;
+  top: 10%;
+}
