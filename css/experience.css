@@ -29,7 +29,7 @@
 }
 /* paragaraph section */
 .header2 {
-  height: 60vh;
+  height: 40vh;
   width: 100vw;
 }
 .para1-text {
@@ -56,7 +56,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 .block1 {
   height: 100%;
@@ -91,4 +91,118 @@
 #view {
   height: 100%;
   width: 80%;
+}
+
+/* section 4 */
+.header {
+  width: 100vw;
+}
+.experience4 {
+  width: 100%;
+  padding-top: 7%;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+}
+/* .empty {
+  height: 20%;
+  width: 70%;
+  z-index: 0;
+  border: 3px solid green;
+  background-color: black;
+} */
+#golf-img {
+  height: 20%;
+  width: 60%;
+}
+.container4 {
+  height: 50%;
+  width: 35%;
+  background-color: white;
+  align-items: center;
+  line-height: 2;
+  position: absolute;
+  left: 40%;
+  top: 300%;
+}
+.image-text {
+  height: 80%;
+  width: 80%;
+  color: #777;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 5%;
+}
+.head4 {
+  color: black;
+  /* padding-bottom: 7%; */
+}
+
+.btn-default {
+  background-color: transparent;
+  border: 1px solid #777;
+  color: #777;
+  font-size: 20px;
+  padding: 2% 3%;
+  position: relative;
+  left: 5%;
+}
+
+/* outdoor pursuits section */
+#outdoor-img{
+  height: 20%;
+  width: 50%;
+  position: relative;
+  right: -50%;
+}
+.container5{
+  height: 50%;
+  width: 35%;
+  line-height: 1.7;
+  background-color: white;
+  position: absolute;
+  left: 40%;
+  top: 400%; 
+}
+
+/* wellness section */
+#wellness-img{
+  height: 20%;
+  width: 60%;
+}
+
+.container6{
+  height: 50%;
+  width: 35%;
+  line-height: 2;
+  background-color: white;
+  position: absolute;
+  left: 40%;
+  top: 510%; 
+}
+
+/* last section */
+#exper-img{
+  overflow: hidden;
+  object-fit: cover;
+}
+.experience-text{
+  height: 20%;
+  width: 30%;
+  position: absolute;
+  top: 620%;
+  left: 35%;
+  text-align: center;
+  color: white;
+}
+.head6{
+  font-size: 50px;
+  padding-bottom: 5%;
+  font-weight: 200;
+}
+#second{
+  color: white;
+  padding: 3% 7%;
+  border: 1px solid white;
 }
