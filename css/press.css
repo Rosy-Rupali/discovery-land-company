@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.press {
+  height: 100vh;
+  width: 100vw;
+}
+#img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.para {
+    width: 200%;
+    height: 100%;
+    position: relative;
+    top: 200%;
+    left: 150%;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  
