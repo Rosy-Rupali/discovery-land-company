@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 100vh;
+  width: 100vw;
+}
+.experience {
+  height: 100%;
+  width: 100%;
+}
+#myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.discover {
+  width: 200%;
+  height: 100%;
+  position: relative;
+  top: 200%;
+  left: 150%;
+  font-size: 30px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* paragaraph section */
+.header2 {
+  height: 60vh;
+  width: 100vw;
+}
+.para1-text {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  bottom: 75%;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Roboto" sans-serif;
+  font-weight: 500;
+}
+/* exclusive to your world section */
+.header3 {
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 5%;
+}
+.experience2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.block1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#heading3 {
+  height: 30%;
+  width: 40%;
+  color: black;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+#text {
+  text-align: left;
+  color: #777;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  left: 10%;
+}
+.block2 {
+  height: 100%;
+  width: 50%;
+}
+#view {
+  height: 100%;
+  width: 80%;
+}
