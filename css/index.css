@@ -34,11 +34,29 @@
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.navbar {
+.navbar1 {
   align-items: flex-end;
   width: 50%;
 }
 
+/* .round-button{
+  text-align: center;
+  color: white;
+  border-radius: 100%;
+  border: 1px solid white;
+  width: 15%;
+  padding: 4%;
+  margin-top: 5%;
+  position: relative;
+  left: 39%;
+} */
+#arrow {
+  width: 30%;
+  padding: 10%;
+  position: relative;
+  top: 400%;
+  left: 500%;
+}
 .header-logo {
   width: 15%;
 }
@@ -52,13 +70,13 @@
     font-size:20px;
 } */
 
-ul,
+
 a {
   text-decoration: none;
   color: white;
 }
 
-nav ul li {
+.navbar1 li {
   list-style: none;
   display: inline-block;
   justify-content: space-around;
@@ -112,6 +130,8 @@ nav ul li {
   height: 100%;
   width: 100%;
   justify-content: space-around;
+  background-image: url("../assets/background.jpg");
+  background-size: auto;
 }
 .image {
   max-width: 100%;
