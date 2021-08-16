@@ -17,6 +17,7 @@
 .footer li {
   list-style: none;
   font-size: 17px;
+  margin-top: 5%;
   position: relative;
   top: 10%;
 }
@@ -25,4 +26,7 @@
   height: 3%;
   position: relative;
   top: 10%;
+}
+.foot-head-logo{
+  background-color: transparent;
 }

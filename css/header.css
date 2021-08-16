@@ -4,23 +4,22 @@
   flex-direction: row;
   position: relative;
   justify-content: space-around;
-  bottom: 95%;
+  bottom: 90%;
   height: 10%;
 }
-.navbar {
-  position: relative;
+.foot-head-logo{
+  background-color: transparent;
+}
+.navbar1{
   align-content: flex-end;
   width: 50%;
 }
-
-
-ul,
 a {
   text-decoration: none;
   color: white;
 }
 
-nav ul li {
+.navbar1 li {
   list-style: none;
   display: inline-block;
   justify-content: space-between;
@@ -28,6 +27,5 @@ nav ul li {
 }
 
 .header-logo {
-  width: 17%;
-  
+  width: 15%;
 }
