@@ -28,8 +28,8 @@
   width: 200%;
   height: 100%;
   position: relative;
-  top: 200%;
-  left: 150%;
+  top: 100%;
+  left: 50%;
   font-size: 30px;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -39,23 +39,15 @@
   width: 50%;
 }
 
-/* .round-button{
-  text-align: center;
-  color: white;
-  border-radius: 100%;
-  border: 1px solid white;
-  width: 15%;
-  padding: 4%;
-  margin-top: 5%;
-  position: relative;
-  left: 39%;
-} */
+.round-button{
+  height: 100%;
+  width: 100%;
+  border: 2px solid yellow;
+  
+}
 #arrow {
-  width: 30%;
-  padding: 10%;
-  position: relative;
-  top: 400%;
-  left: 500%;
+  border-radius: 100%;
+  border: 1px solid red;
 }
 .header-logo {
   width: 15%;
@@ -121,7 +113,7 @@ a {
 } */
 
 .header2 {
-  height: 140vh;
+  height: 150vh;
   width: 100vw;
 }
 .bg-img {
@@ -130,44 +122,75 @@ a {
   height: 100%;
   width: 100%;
   justify-content: space-around;
-  background-image: url("../assets/background.jpg");
-  background-size: auto;
+  background-image: url("../assets/discovery3.jpg");
+  background-position: center;
 }
-.image {
-  max-width: 100%;
-  height: auto;
-}
+
 .explore2 {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   width: 50%;
   height: 100%;
-}
-.para {
-  margin-top: 7%;
-  position: relative;
-  left: 5%;
-  height: 12%;
-  text-align: left;
-  font-size: 210%;
-}
-.para1 {
-  position: relative;
-  left: 5%;
-  height: 32%;
-  justify-content: space-around;
   font-size: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.para {
+  /* height: 12%; */
+  font-weight: 500;
+  color: black;
+  font-size: 210%;
+  padding-bottom: 5%;
+  padding-left: 3%;
+}
+.para1 {
+  line-height: 1.5;
+  padding-bottom: 5%;
+  padding-left: 3%;
 }
 .para2 {
-  height: 54%;
-  object-fit: cover;
-  overflow: hidden;
+  height: 50%;
+  width: 80%;
+  /* height: 54%; */
+  /* object-fit: cover; */
+  /* overflow: hidden; */
+}
+#image1{
+  height: 100%;
+  width: 100%;
 }
 .part2 {
-  margin-top: 5%;
+  padding-top: 5%;
   height: 70%;
   width: 35%;
-  object-fit: cover;
+}
+#image2{
+  height: 100%;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 800px) {
+ .bg-img{
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+ }
+.explore2{
+  width: 100%;
+  margin-left: 4%;
+}
+.part2{
+  width: 100%;
+  margin-left: 4%;
+}
+.navbar1{
+  display: none;
+}
+.header-logo{
+  width: 30%;
+}
 }
