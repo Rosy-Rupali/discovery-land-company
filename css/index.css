@@ -25,25 +25,42 @@
   height: 10%;
 }
 .discover {
-  width: 200%;
-  height: 100%;
-  position: relative;
-  top: 100%;
-  left: 50%;
-  font-size: 30px;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  left: 20%;
+  bottom: 80%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.head-discovery {
+  height: 80%;
+  width: 100%;
+  font-size: 80px;
+  text-align: justify;
+}
+#scroll {
+  width: 100%;
+  height: 7%;
+  font-size: 20px;
+  position: relative;
+  top: 30%;
+  color: white;
 }
 .navbar1 {
   align-items: flex-end;
   width: 50%;
 }
 
-.round-button{
+.round-button {
   height: 100%;
   width: 100%;
   border: 2px solid yellow;
-  
 }
 #arrow {
   border-radius: 100%;
@@ -61,7 +78,6 @@
     padding: 20px;
     font-size:20px;
 } */
-
 
 a {
   text-decoration: none;
@@ -158,7 +174,7 @@ a {
   /* object-fit: cover; */
   /* overflow: hidden; */
 }
-#image1{
+#image1 {
   height: 100%;
   width: 100%;
 }
@@ -167,30 +183,29 @@ a {
   height: 70%;
   width: 35%;
 }
-#image2{
+#image2 {
   height: 100%;
   width: 100%;
 }
 
-
 @media only screen and (max-width: 800px) {
- .bg-img{
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
- }
-.explore2{
-  width: 100%;
-  margin-left: 4%;
-}
-.part2{
-  width: 100%;
-  margin-left: 4%;
-}
-.navbar1{
-  display: none;
-}
-.header-logo{
-  width: 30%;
-}
+  .bg-img {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .explore2 {
+    width: 100%;
+    margin-left: 4%;
+  }
+  .part2 {
+    width: 100%;
+    margin-left: 4%;
+  }
+  .navbar1 {
+    display: none;
+  }
+  .header-logo {
+    width: 30%;
+  }
 }
