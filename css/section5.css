@@ -4,7 +4,7 @@
     background-color: #f3f3f3;
 
 }
-.explore3{
+.explore4{
     height: 100%;
     width: 100%;
     background-image: url('../assets/earth.jpg');
@@ -12,33 +12,27 @@
     background-position: left bottom;
     background-size: 70% 60%;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
 
 }
 #lands{
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    justify-content: space-between;
-    align-items:flex-start;
-    position: relative;
-    left: 5.5%;    
+    padding-left: 2%;
+}
+a{
+    color:  black ;
 }
 .navbar{
-    background-color: transparent;
-    border: none;
-    position: relative;
-    top: 5%;
-    left:5%;
-    
+    background-color: transparent !important;
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 1px;
-} 
+}  */
 .black-card{
+    border: 3px solid salmon;
     background-color: black;
     position: relative;
-    top: 20%;
+    bottom: 5%;
     left: 50%;
     height: 40%;
     width: 40%;
@@ -53,16 +47,13 @@
     bottom: 15%;
    
 }
-#earth{
-    height: 90%;
-    width: 40%;
-    position: relative;
-    left: 20%;
-    bottom: 15%;
-}
 .black2-container{
+    overflow: hidden;
     display: flex;
     flex-direction: row;
+    position: relative;
+    bottom: 20%;
+    border: 3px solid yellow;
 }
 #sun{
     border: 2px solid purple;
