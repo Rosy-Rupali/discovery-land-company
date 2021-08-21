@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -14,9 +14,8 @@
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/section4.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/section3.css">
     <link rel="stylesheet" href="../css/section5.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   </head>
 
@@ -36,11 +35,11 @@
             </div>
           <nav class="navbar1">
             <ul>
-              <li><a href="../pages/aboutDLC.html">About DLC</a></li>
-              <li><a href="../pages/our-world.html">Our Worlds</a></li>
-              <li><a href="../pages/experiences.html">Experiences</a></li>
-              <li><a href="../pages/gallery.html">Gallery</a></li>
-              <li><a href="#">Press</a></li>
+              <li class="h-items"><a class="header-text" href="../pages/aboutDLC.html">About DLC</a></li>
+              <li class="h-items"><a class="header-text" href="../pages/our-world.html">Our Worlds</a></li>
+              <li class="h-items"><a class="header-text" href="../pages/experiences.html">Experiences</a></li>
+              <li class="h-items"><a class="header-text" href="../pages/gallery.html">Gallery</a></li>
+              <li class="h-items"><a class="header-text" href="../pages/press.html">Press</a></li>
             </ul>
             <div class="nav-toggle" id="navToggle">
 
@@ -83,57 +82,107 @@
       </div>
     </div>
 
+
+    <!-- Explore World section -->
+    <!-- <div class="header3">
+      <div class="explore3" id="e3">
+        <h1 class="head-explore">Explore<br>our Worlds</h1>
+
+        <div id="slider">
+          <div class="sliding">
+              <img class="items" src="../assets/discoverylast1.jpg" alt="">
+              <img class="items" src="../assets/discoverylast4.jpg" alt="">
+              <img class="items" src="../assets/discoverylast5.jpg" alt="">
+              <img class="items" src="../assets/discoverlast2.jpg" alt="">
+              <img class="items" src="../assets/last6.jpg" alt="">
+              <img class="items" src="../assets/last7.jpg" alt="">
+              <img class="items" src="../assets/last8.jpg" alt="">
+              <img class="items" src="../assets/last9.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+
+
     <!-- land of discovery section -->
     <div class="header4">
-      <div class="explore3">
+      <div class="explore4">
         <div id="lands">
           <h1>Lands of <br>Discovery</h1>
-        <p><br><br>A world way from the day-to day. Your escape. Your heaven. Your world.<br>
-        Explore the map below and take a journey to our communities.</p>
-        </div>
-        <nav class="navbar navbar-default">
-          <ul class="nav navbar-nav">
-              <li><a href="#"><u>NorthAmerica& Caribbean</u></a></li>
-              <li><a href="#">Hawaii</a></li>
-              <li><a href="#">Europe</a></li>
-            </ul>
-        </nav>
+        <p>A world way from the day-to day. Your escape. Your heaven. Your world.</p>
+       <p>Explore the map below and take a journey to our communities.</p>
+       </div>
+<nav class="navbar navbar-expand-sm bg-light">
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#"><u>North America & Caribbean</u></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Hawaii</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Europe</a>
+    </li>
+  </ul>
+
+</nav>
         <div class="black-card">
           <div class="black1-container">
             <img class="arrowfunc" src="../assets/arrow1.svg" alt="arrow logo">
             <img class="arrowfunc" src="../assets/arrow2.svg" alt="arrow logo">
-            <img id="earth" src="../assets/earth2.jpg" alt="picture1">
+            <div class="black-container">
+              <img id="sun" class="logo" src="../assets/sung.svg" alt="sun logo">
+              <p>86 F</p>
+            </div>
+            <div class="black-container">
+              <img id="wind" class="logo" src="../assets/wind icon.jpg" alt="wind logo">
+              <p>3.78 mph</p>
+            </div>
+            <div class="black-container">
+              <img id="compass" class="logo" src="../assets/Compass-icon.png" alt="compass logo" style="--color_fill: yellow;">
+              <p>234</p>
+            </div>
+            <div class="black-container">
+              <p>Los Cabos, Mexico</p>
+              <h1>El Dorado</h1>
+            </div>
+            <div class="black-container">
+              <img src="../assets/location.svg" alt="location logo">
+              <p>26.047947 N/-109.799287 W</p>
+            </div>
+            </div>
             <div class="black2-container" >
-              <div class="black-container">
-                <img id="sun" class="logo" src="../assets/sung.svg" alt="sun logo">
-                <p>86 F</p>
+              <div id="myCarousel" class="carousel slide" >
+                <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="" alt="" style="width:100%; height: 150%;">
+                    </div>                  
+                    <div class="item">
+                      <img src="../assets/globe1.jpg" alt="" style="width:100%; height: 150%;">
+                    </div>                      
+                    <div class="item">
+                      <img src="../assets/globe2.jpg " alt="" style="width:100%; height: 150%;">
+                    </div>
+                    <div class="item">
+                        <img src="../assets/globe3.jpg" alt="" style="width:100%; height: 150%;">
+                      </div>
+                      <div class="item">
+                        <img src="../assets/globe4.jpg" alt="" style="width:100%; height: 150%;">
+                      </div>
+                      <div class="item">
+                        <img src="../assets/globe5.jpg" alt="" style="width:100%; height: 150%;">
+                      </div>
+                  </div>
+                  </div>
               </div>
-              <div class="black-container">
-                <img id="wind" class="logo" src="../assets/wind icon.jpg" alt="wind logo">
-                <p>3.78 mph</p>
-              </div>
-              <div class="black-container">
-                <img id="compass" class="logo" src="../assets/Compass-icon.png" alt="compass logo" style="--color_fill: yellow;">
-                <p>234</p>
-              </div>
-              <div class="black-container">
-                <p>Los Cabos, Mexico</p>
-                <h1>El Dorado</h1>
-              </div>
-              <div class="black-container">
-                <img src="../assets/location.svg" alt="location logo">
-                <p>26.047947 N/-109.799287 W</p>
-              </div>
-            </div>
-            </div>
           </div>
-        </div>
-      </div>
-    </div>
 
 <!-- card section -->
-    <div class="header3">
-      <div class="explore4">
+    <div class="header5">
+      <div class="explore5">
         <div class="card">
           <img src="../assets/exp1.jpg" alt="image1" class="image">
         <div class="container">
@@ -166,31 +215,33 @@
       <div class="get-in-touch">
         <ul>
           <li class="footer-text">Get in Touch</li>
-          <li><a href="#" class="footer-text">(480)624-5200</a></li>
-          <li>
+          <li class="l-items"><a href="#" class="footer-text">(480)624-5200</a></li>
+          <li class="l-items">
             <a href="#" class="footer-text"><u>mail@discoverylandco.com</u></a>
           </li>
         </ul>
       </div>
       <div class="other-pages">
         <ul>
-          <li><a href="../pages/aboutDLC.html" class="footer-text">About DLC</a></li>
-          <li><a href="../pages/our-world.html" class="footer-text">Our Worlds</a></li>
-          <li><a href="../pages/experiences.html" class="footer-text">Experiences</a></li>
-          <li><a href="../pages/gallery.html" class="footer-text">Gallary</a></li>
-          <li><a href="#" class="footer-text">Press</a></li>
+          <li class="l-items"><a href="../pages/aboutDLC.html" class="header-text">About DLC</a></li>
+          <li class="l-items"><a href="../pages/our-world.html" class="footer-text">Our Worlds</a></li>
+          <li class="l-items"><a href="../pages/experiences.html" class="footer-text">Experiences</a></li>
+          <li class="l-items"><a href="../pages/gallery.html" class="footer-text">Gallary</a></li>
+          <li class="l-items"><a href="../pages/press.html" class="footer-text">Press</a></li>
         </ul>
       </div>
       <div class="other-links">
         <ul>
-          <li><a href="#" class="footer-text">Magazine</a></li>
-          <li><a href="#" class="footer-text">Careers</a></li>
-          <li><a href="#" class="footer-text">Foundation</a></li>
-          <li><a href="#" class="footer-text">Company</a></li>
-          <li><a href="#" class="footer-text">Contact</a></li>
-          <li><a href="#" class="footer-text">Privacy</a></li>
+          <li class="l-items"><a href="#" class="footer-text">Magazine</a></li>
+          <li class="l-items"><a href="#" class="footer-text">Careers</a></li>
+          <li class="l-items"><a href="#" class="footer-text">Foundation</a></li>
+          <li class="l-items"><a href="#" class="footer-text">Company</a></li>
+          <li class="l-items"><a href="#" class="footer-text">Contact</a></li>
+          <li class="l-items"><a href="#" class="footer-text">Privacy</a></li>
         </ul>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
