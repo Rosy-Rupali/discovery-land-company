@@ -79,16 +79,22 @@
     font-size:20px;
 } */
 
-a {
+.header-text{
   text-decoration: none;
   color: white;
+  background-color: transparent;
 }
 
-.navbar1 li {
+.navbar1, 
+.h-items {
   list-style: none;
   display: inline-block;
   justify-content: space-around;
-  padding-left: 10vh;
+  padding-left: 5%;
+}
+.header-text{
+  text-decoration: none;
+  background-color: transparent;
 }
 /* nav ul li a {
   text-decoration: none;

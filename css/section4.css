@@ -1,9 +1,9 @@
-.header3{
+.header5{
     height: 100vh;
     width: 100vw;
     
 }
-.explore4{
+.explore5{
     height: 100%;
     width: 100%;
     display: flex;
@@ -42,14 +42,13 @@
     color: white;
     border-radius: 100%;
     border: 1px solid white;
-    height: 30%;
+    height: 50%;
     width: 15%;
-    padding-top: 7% ;
     position: relative;
     left: 39%;
 }
 @media only screen and (max-width: 800px) {
-    .explore4{
+    .explore5{
         flex-direction: column;
         align-items: center;
         justify-content: center;
