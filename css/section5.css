@@ -9,10 +9,9 @@
     width: 100%;
     background-image: url('../assets/earth.jpg');
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 70% 60%;
+    background-position: left;
+    background-size: 80% 100%;
     overflow: hidden;
-
 }
 #lands{
     font-family: 'Roboto', sans-serif;
@@ -29,58 +28,46 @@ a{
     width: 1px;
 }  */
 .black-card{
-    border: 3px solid salmon;
     background-color: black;
     position: relative;
     bottom: 5%;
     left: 50%;
-    height: 40%;
-    width: 40%;
+    height: 45%;
+    width: 45%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-.arrowfunc{
-    position: relative;
-    width: 15%;
-    height: 5%;
-    bottom: 15%;
-   
-}
-.black2-container{
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    bottom: 20%;
-    border: 3px solid yellow;
-}
-#sun{
-    border: 2px solid purple;
-    width: 60%;
-    height: 15%;
-}
-#wind{
-    border: 2px solid purple;
-    width: 60%;
-    height: 15%;
-    opacity: 0.3;
-}
-#compass{
-    border: 2px solid purple;
-    width: 20%;
-    height: 15%;
     
-    color: violet;
 }
-.logo path {
-    fill: #fff;
-  }
-.black-container{
+.black1-container{
+    width: 50%;
     display: flex;
     flex-direction: column;
-    border: 5px solid green;
+    justify-content: space-around;
+}
+.arrow-button{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
     position: relative;
-    color: white;
+    left: 9%;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     
-}  
+}
+
+.txt{
+    font-size: 15px;
+    color: hsla(0,0%,100%,.5);
+}
+.main-txt{
+    color: white;
+}
+.black2-container{
+    width: 45%;
+    position: relative;
+    bottom: 4%;
+}
