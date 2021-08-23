@@ -1,0 +1,58 @@
+.header3 {
+    height: 100vh;
+    width: 100vh;
+  }
+  .explore3 {
+    height: 100%;
+    width: 100%;
+  }
+  .head-explore {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  
+  #slider {
+    width: 100vw;
+    overflow: hidden;
+    transform: translateX(-50%, 50%);
+  }
+  
+  .sliding{
+      display: flex;
+      justify-content: space-evenly;    
+  }
+  .items {
+    width: 20%;
+    
+  }
+  
+  #slider .sliding{
+    position: relative;
+    width: 100%;
+    left: 5%;
+    margin: 0;
+    
+    animation-name: slider;
+    animation-duration: 30s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slider {
+    0% {
+      left: 10%;
+    }
+    25% {
+      left: 25%;
+    }
+    50% {
+      left: 50%;
+    }
+    75% {
+      left: 30%;
+    } 
+    100% {
+      left: 10%;
+    }
+  }

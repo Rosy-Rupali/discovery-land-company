@@ -1,4 +1,3 @@
-/* footer  */
 .footer {
   display: flex;
   flex-direction: row;
@@ -7,22 +6,41 @@
   background-color: rgba(14, 19, 16, 0.911);
   align-items: baseline;
   justify-content: space-around;
- 
 }
 
 .footer-text {
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
 }
-.footer li {
-  list-style: none;
+.footer-text,
+.l-items{
+  list-style: none !important;
   font-size: 17px;
+  margin-top: 5%;
   position: relative;
   top: 10%;
+  color: white;
+  background-color: transparent;
 }
 .footer-logo {
   width: 5%;
-  height: 3%;
+  height: 5%;
   position: relative;
   top: 10%;
+}
+.foot-head-logo {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo {
+    height: 60%;
+  }
+  .footer-text {
+    font-size: 20px;
+  }
 }
