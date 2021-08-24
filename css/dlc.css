@@ -140,7 +140,7 @@
 
 /* section 4  The discovery difference*/
 .header4 {
-  height: 210vh;
+  height: 230vh;
   width: 100vw;
 }
 .dlc3 {
@@ -156,6 +156,26 @@
   font-size: 30px;
   padding-left: 5%;
   align-self: flex-start;
+}
+.basic-action{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 30%;
+  bottom: 7%;
+  width: 13%;
+  height: 7%;
+   border: 3px solid red;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  padding: 10%;
 }
 #slider {
   height: 40%;

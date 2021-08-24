@@ -1,5 +1,5 @@
 .header3 {
-  height: 100vh;
+  height: 110vh;
   width: 100vh;
 }
 .explore3 {
@@ -11,7 +11,26 @@
   font-weight: 400;
   font-size: 35px;
 }
-
+.basic-action{
+  width: 43%;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 7%;
+  left: 145%;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  font-weight: bold;
+  cursor: pointer;
+  /* width: 20%;
+  height: 35%; */
+  border-radius: 50%;
+  border: none;
+  padding: 10%;
+  
+}
 #slider {
   width: 100vw;
   overflow: hidden;
