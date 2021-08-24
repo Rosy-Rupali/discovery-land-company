@@ -15,15 +15,14 @@
 #slider {
   width: 100vw;
   overflow: hidden;
-  transform: translateX(-50%, 50%);
 }
 
 .sliding{
     display: flex;
-    justify-content: space-evenly;    
+    flex-direction: row; 
 }
 .items {
-  width: 20%;
+  width: 25%;
   
 }
 
@@ -31,28 +30,24 @@
   position: relative;
   width: 100%;
   left: 5%;
-  margin: 0;
-  
   animation-name: slider;
-  animation-duration: 30s;
-  animation-delay: 1s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
 }
-
+.sliding, .items{
+  margin: 0% 0.5%;
+}
 @keyframes slider {
   0% {
-    left: 10%;
+    transform: translate(0%);
   }
-  25% {
-    left: 25%;
+  25%{
+    transform: translateX(-20%);
   }
-  50% {
-    left: 50%;
+  50%{
+    transform: translateX(-50%);
   }
-  75% {
-    left: 30%;
-  } 
   100% {
-    left: 10%;
+    transform:translateX(-100%);
   }
 }

@@ -25,7 +25,7 @@
   position: relative;
   left: 20%;
   bottom: 80%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .head-discovery {
   height: 80%;
@@ -64,7 +64,7 @@
 }
 
 .header3 {
-  height: 270vh;
+  height: 200vh;
   width: 100vw;
 }
 .dlc2 {
@@ -73,7 +73,7 @@
   display: flex;
   flex-direction: column;
 }
-.section31{
+.section31 {
   height: 50%;
   width: 100%;
   display: flex;
@@ -81,7 +81,7 @@
   justify-content: space-around;
 }
 .block1 {
-  height: 30%;
+  height: 70%;
   width: 50%;
   padding-top: 7%;
   display: flex;
@@ -92,21 +92,22 @@
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 400;
-
 }
-.heading-mission { 
-  width: 70%;
+.heading-mission {
+  width: 50%;
   color: black;
   font-weight: 500;
   font-size: 50px;
   padding-bottom: 4%;
 }
 #text1 {
-  width: 70%;
+  width: 50%;
+  text-align: left;
   padding-bottom: 5%;
 }
-#text2{
-  width: 70%;
+#text2 {
+  width: 50%;
+  text-align: left;
 }
 .block2 {
   height: 70%;
@@ -120,22 +121,24 @@
   overflow: hidden;
   object-fit: cover;
 }
-.section32{
+.section32 {
   height: 50%;
 }
 .yatch-img {
+  height: 100%;
   width: 95%;
   justify-content: center;
   align-items: center;
 }
 #yatch {
- width: 100%;
- padding-left: 5%;
+  height: 100%;
+  width: 100%;
+  padding-left: 5%;
   overflow: hidden;
   object-fit: cover;
 }
 
-/* section 4 */
+/* section 4  The discovery difference*/
 .header4 {
   height: 210vh;
   width: 100vw;
@@ -148,12 +151,51 @@
   align-items: center;
 }
 .heading {
-  height: 50%;
-  width: 25%;
+  height: 7%;
+  width: 35%;
   font-size: 30px;
-  padding-left: 10%;
+  padding-left: 5%;
   align-self: flex-start;
 }
+#slider {
+  height: 40%;
+  width: 100vw;
+  overflow: hidden;
+}
+.sliding{
+    display: flex;
+    flex-direction: row; 
+}
+.items {
+  width: 25%;
+}
+
+#slider .sliding{
+  position: relative;
+  width: 100%;
+  left: 5%;
+  animation-name: slider;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+.sliding, .items{
+  margin: 0% 0.5%;
+}
+@keyframes slider {
+  0% {
+    transform: translate(0%);
+  }
+  25%{
+    transform: translateX(-20%);
+  }
+  50%{
+    transform: translateX(-50%);
+  }
+  100% {
+    transform:translateX(-100%);
+  }
+}
+
 .restro-img {
   height: 50%;
   width: 100%;
@@ -162,17 +204,15 @@
 }
 
 #restro {
-  /* height: 100%; */
-  /* width: 100%; */
+  height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
 /* section5 discovery design */
 .header5 {
-  height: 210vh;
+  height: 200vh;
   width: 100vw;
-  margin-top: 3%;
 }
 .dlc4 {
   height: 100%;
@@ -220,6 +260,8 @@
   padding-bottom: 3%;
 }
 #text21 {
+  width: 70%;
+  text-align: left;
   padding-bottom: 3%;
 }
 .chair-img {
@@ -237,18 +279,16 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-
 }
 #view2 {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  
 }
 
 /* Section 6 Discovery Builders */
 .header6 {
-  height: 210vh;
+  height: 200vh;
   width: 100vw;
 }
 .dlc5 {
@@ -265,7 +305,7 @@
   flex-direction: row;
 }
 .heading6 {
-  width:  70%;;
+  width: 70%;
   color: black;
   font-weight: 500;
   font-size: 40px;
@@ -284,7 +324,6 @@
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   font-weight: 400;
-
 }
 .block62 {
   height: 100%;
@@ -297,6 +336,7 @@
 }
 #text61 {
   width: 70%;
+  text-align: left;
   padding-bottom: 5%;
 }
 .pool-img {
@@ -346,83 +386,103 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .dlc{
+  .dlc {
     width: 100%;
   }
-  .para{
+  .para {
     width: 100%;
   }
-  .header2{
-  height: 100%;
-  width: 100%;
-  }
-  .para1-text{
-    
+  .header2 {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
+    
   }
-  /* ::-webkit-scrollbar {
-    width: 20px;
+  .para1-text {
+    max-width: 100%;
+  }
+  .container{
+    text-align:left;
+   max-width: 100%;
+   font-size: 20px;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
   } 
-  */
+ 
   .section31 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
   }
-  .block1{
-    height: 100%;
+  .block1 {
     width: 100%;
   }
-  .block2{
-    height: 100%;
+  .block2 {
     width: 100%;
     padding-left: 13%;
     padding-bottom: 5%;
   }
-  .section32{
+  .section32 {
+    max-height: 100%;
+  }
+  .header2{
     height: 100%;
   }
-  .section1{
+  .header3{
+    height: 100%;
+  }
+  .header4{
+    height: 100%;
+  }
+  .section1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
-    
+
     /* flex-wrap: wrap; */
   }
-  .block21{
-    height: 100%;
+  .block21 {
+    max-height: 100%;
     width: 100%;
     padding-right: 18%;
-    
   }
-  .block22{
+  .block22 {
     height: 100%;
     width: 100%;
+    text-align: justify;
     padding-left: 15%;
-    
   }
-  .section2{
+  .section2 {
     height: 100%;
   }
-  .section61{
+  .restro-img{
+    height: 100%;
+    max-width: 100%;
+  }
+  .section61 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
   }
-  .block61{
-    height: 100%;
+  .block61 {
+    max-height: 100%;
     width: 100%;
+    text-align: justify;
   }
-  .block62{
-    height: 100%;
+  .block62 {
+    max-height: 100%;
     width: 100%;
     padding-left: 15%;
   }
-.section62{
-  height: 110%;
-}
+  .section62 {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  /* ::-webkit-scrollbar {
+    width: 20px;
+  }  */
+ 
 }
