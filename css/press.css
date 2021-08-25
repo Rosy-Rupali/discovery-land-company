@@ -162,7 +162,10 @@
   font-weight: 400;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.date{
+font-size: 17px;
+font-family: 'Roboto', sans-serif;
+}
 .arrow-keys{
   height: 7%;
   width: 20%;
@@ -171,7 +174,8 @@
   margin-bottom: 5%;
   margin-left: 40%;
 }
-.carousel-control3{
+.leftbtn,
+.rightbtn {
   width: 100%;
   border: none;
   opacity: 0.2;
