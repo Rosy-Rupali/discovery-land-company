@@ -33,7 +33,6 @@
 }
 #slider {
   width: 100vw;
-  overflow: hidden;
 }
 
 .sliding{
@@ -69,4 +68,16 @@
   100% {
     transform:translateX(-100%);
   }
+}
+@media only screen and(max-width:900px) {
+    .header3{
+      width: 100%;
+      height: 100%;
+    }
+    #slider{
+      width: 100%;
+    }
+    .items{
+      width: 100%;
+    }
 }
